@@ -1,0 +1,44 @@
+name: "💡 Idea"
+description: "Nieuw idee voor een tool/SaaS/digitaal product"
+title: "[Idea]: "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: pitch
+    attributes:
+      label: Elevator pitch
+      description: "1 zin: wat is het en voor wie?"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Probleem (klanttaal)
+      description: "Welke pijn lossen we op?"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome / belofte
+      description: "Wat levert het op?"
+    validations:
+      required: true
+  - type: textarea
+    id: mvp
+    attributes:
+      label: MVP Features (3–5)
+      description: "Bullet list"
+    validations:
+      required: true
+  - type: dropdown
+    id: monetization
+    attributes:
+      label: Monetization
+      options:
+        - subscription
+        - one-time
+        - freemium
+        - service + product
+    validations:
+      required: true

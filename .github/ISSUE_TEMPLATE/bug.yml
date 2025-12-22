@@ -1,0 +1,32 @@
+name: "🐛 Bug"
+description: "Iets werkt niet zoals verwacht"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Repro stappen
+      placeholder: |
+        1) ...
+        2) ...
+        3) ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Verwacht gedrag
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Huidig gedrag
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Omgeving
+      description: "OS, browser, versie(s)"

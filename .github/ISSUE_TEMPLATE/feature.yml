@@ -1,0 +1,28 @@
+name: "✨ Feature"
+description: "Nieuwe functionaliteit"
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Wat bouwen we?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Waarom?
+      description: "Welke user value?"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptatiecriteria
+      description: "Wanneer is het 'done'?"
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
