@@ -20,3 +20,4 @@ Doel: sneller shippen, minder chaos, consistente kwaliteit.
 - `docs/prd/` – requirements
 - `docs/adr/` – belangrijke beslissingen
 - `docs/runbook/` – ops & onderhoud
+CI trigger ma 22 dec 2025 23:49:29 CET
