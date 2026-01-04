@@ -12,3 +12,21 @@ coverage
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# --- Webbiecorn hygiene ---
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.turbo/
+.vite/
+.firebase/
+
+# logs
+*.log
+dev_server.log
+npm_output.log
+
+# OS / editor
+.DS_Store
